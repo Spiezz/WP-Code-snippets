@@ -1,0 +1,5 @@
+
+add_filter('get_the_content_limit_allowedtags', 'genesiswp_custom_allowedtags');
+ function genesiswp_custom_allowedtags() {
+ return '<script>,<style>,<b>,<br>,<em>'; //add whatever tags you want to this string
+ }
